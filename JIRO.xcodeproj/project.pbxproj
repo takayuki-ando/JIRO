@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B8E40FB1D84E53300806279 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E40FA1D84E53300806279 /* AppDelegate.swift */; };
+		4B8E40FD1D84E53300806279 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E40FC1D84E53300806279 /* ViewController.swift */; };
+		4B8E41001D84E53300806279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E40FE1D84E53300806279 /* Main.storyboard */; };
+		4B8E41021D84E53300806279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E41011D84E53300806279 /* Assets.xcassets */; };
+		4B8E41051D84E53300806279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B8E41031D84E53300806279 /* LaunchScreen.storyboard */; };
+		4B8E41101D84E53300806279 /* JIROTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E410F1D84E53300806279 /* JIROTests.swift */; };
+		4B8E411B1D84E53300806279 /* JIROUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8E411A1D84E53300806279 /* JIROUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B8E410C1D84E53300806279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8E40EF1D84E53300806279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8E40F61D84E53300806279;
+			remoteInfo = JIRO;
+		};
+		4B8E41171D84E53300806279 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B8E40EF1D84E53300806279 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B8E40F61D84E53300806279;
+			remoteInfo = JIRO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B8E40F71D84E53300806279 /* JIRO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JIRO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E40FA1D84E53300806279 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B8E40FC1D84E53300806279 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B8E40FF1D84E53300806279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B8E41011D84E53300806279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B8E41041D84E53300806279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B8E41061D84E53300806279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8E410B1D84E53300806279 /* JIROTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JIROTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E410F1D84E53300806279 /* JIROTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIROTests.swift; sourceTree = "<group>"; };
+		4B8E41111D84E53300806279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B8E41161D84E53300806279 /* JIROUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JIROUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B8E411A1D84E53300806279 /* JIROUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JIROUITests.swift; sourceTree = "<group>"; };
+		4B8E411C1D84E53300806279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B8E40F41D84E53300806279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41081D84E53300806279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41131D84E53300806279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B8E40EE1D84E53300806279 = {
+			isa = PBXGroup;
+			children = (
+				4B8E40F91D84E53300806279 /* JIRO */,
+				4B8E410E1D84E53300806279 /* JIROTests */,
+				4B8E41191D84E53300806279 /* JIROUITests */,
+				4B8E40F81D84E53300806279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B8E40F81D84E53300806279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E40F71D84E53300806279 /* JIRO.app */,
+				4B8E410B1D84E53300806279 /* JIROTests.xctest */,
+				4B8E41161D84E53300806279 /* JIROUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B8E40F91D84E53300806279 /* JIRO */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E40FA1D84E53300806279 /* AppDelegate.swift */,
+				4B8E40FC1D84E53300806279 /* ViewController.swift */,
+				4B8E40FE1D84E53300806279 /* Main.storyboard */,
+				4B8E41011D84E53300806279 /* Assets.xcassets */,
+				4B8E41031D84E53300806279 /* LaunchScreen.storyboard */,
+				4B8E41061D84E53300806279 /* Info.plist */,
+			);
+			path = JIRO;
+			sourceTree = "<group>";
+		};
+		4B8E410E1D84E53300806279 /* JIROTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E410F1D84E53300806279 /* JIROTests.swift */,
+				4B8E41111D84E53300806279 /* Info.plist */,
+			);
+			path = JIROTests;
+			sourceTree = "<group>";
+		};
+		4B8E41191D84E53300806279 /* JIROUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B8E411A1D84E53300806279 /* JIROUITests.swift */,
+				4B8E411C1D84E53300806279 /* Info.plist */,
+			);
+			path = JIROUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B8E40F61D84E53300806279 /* JIRO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8E411F1D84E53300806279 /* Build configuration list for PBXNativeTarget "JIRO" */;
+			buildPhases = (
+				4B8E40F31D84E53300806279 /* Sources */,
+				4B8E40F41D84E53300806279 /* Frameworks */,
+				4B8E40F51D84E53300806279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JIRO;
+			productName = JIRO;
+			productReference = 4B8E40F71D84E53300806279 /* JIRO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B8E410A1D84E53300806279 /* JIROTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8E41221D84E53300806279 /* Build configuration list for PBXNativeTarget "JIROTests" */;
+			buildPhases = (
+				4B8E41071D84E53300806279 /* Sources */,
+				4B8E41081D84E53300806279 /* Frameworks */,
+				4B8E41091D84E53300806279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8E410D1D84E53300806279 /* PBXTargetDependency */,
+			);
+			name = JIROTests;
+			productName = JIROTests;
+			productReference = 4B8E410B1D84E53300806279 /* JIROTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B8E41151D84E53300806279 /* JIROUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B8E41251D84E53300806279 /* Build configuration list for PBXNativeTarget "JIROUITests" */;
+			buildPhases = (
+				4B8E41121D84E53300806279 /* Sources */,
+				4B8E41131D84E53300806279 /* Frameworks */,
+				4B8E41141D84E53300806279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B8E41181D84E53300806279 /* PBXTargetDependency */,
+			);
+			name = JIROUITests;
+			productName = JIROUITests;
+			productReference = 4B8E41161D84E53300806279 /* JIROUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B8E40EF1D84E53300806279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "安藤隆行";
+				TargetAttributes = {
+					4B8E40F61D84E53300806279 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					4B8E410A1D84E53300806279 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B8E40F61D84E53300806279;
+					};
+					4B8E41151D84E53300806279 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4B8E40F61D84E53300806279;
+					};
+				};
+			};
+			buildConfigurationList = 4B8E40F21D84E53300806279 /* Build configuration list for PBXProject "JIRO" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B8E40EE1D84E53300806279;
+			productRefGroup = 4B8E40F81D84E53300806279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8E40F61D84E53300806279 /* JIRO */,
+				4B8E410A1D84E53300806279 /* JIROTests */,
+				4B8E41151D84E53300806279 /* JIROUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B8E40F51D84E53300806279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E41051D84E53300806279 /* LaunchScreen.storyboard in Resources */,
+				4B8E41021D84E53300806279 /* Assets.xcassets in Resources */,
+				4B8E41001D84E53300806279 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41091D84E53300806279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41141D84E53300806279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B8E40F31D84E53300806279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E40FD1D84E53300806279 /* ViewController.swift in Sources */,
+				4B8E40FB1D84E53300806279 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41071D84E53300806279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E41101D84E53300806279 /* JIROTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B8E41121D84E53300806279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8E411B1D84E53300806279 /* JIROUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B8E410D1D84E53300806279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8E40F61D84E53300806279 /* JIRO */;
+			targetProxy = 4B8E410C1D84E53300806279 /* PBXContainerItemProxy */;
+		};
+		4B8E41181D84E53300806279 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B8E40F61D84E53300806279 /* JIRO */;
+			targetProxy = 4B8E41171D84E53300806279 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B8E40FE1D84E53300806279 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8E40FF1D84E53300806279 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B8E41031D84E53300806279 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B8E41041D84E53300806279 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B8E411D1D84E53300806279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B8E411E1D84E53300806279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B8E41201D84E53300806279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JIRO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIRO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B8E41211D84E53300806279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JIRO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIRO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B8E41231D84E53300806279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JIROTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIROTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIRO.app/JIRO";
+			};
+			name = Debug;
+		};
+		4B8E41241D84E53300806279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JIROTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIROTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JIRO.app/JIRO";
+			};
+			name = Release;
+		};
+		4B8E41261D84E53300806279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JIROUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIROUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JIRO;
+			};
+			name = Debug;
+		};
+		4B8E41271D84E53300806279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JIROUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.takayuki.JIROUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JIRO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B8E40F21D84E53300806279 /* Build configuration list for PBXProject "JIRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8E411D1D84E53300806279 /* Debug */,
+				4B8E411E1D84E53300806279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B8E411F1D84E53300806279 /* Build configuration list for PBXNativeTarget "JIRO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8E41201D84E53300806279 /* Debug */,
+				4B8E41211D84E53300806279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8E41221D84E53300806279 /* Build configuration list for PBXNativeTarget "JIROTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8E41231D84E53300806279 /* Debug */,
+				4B8E41241D84E53300806279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B8E41251D84E53300806279 /* Build configuration list for PBXNativeTarget "JIROUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B8E41261D84E53300806279 /* Debug */,
+				4B8E41271D84E53300806279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B8E40EF1D84E53300806279 /* Project object */;
+}
